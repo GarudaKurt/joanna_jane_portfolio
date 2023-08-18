@@ -77,7 +77,7 @@
     });
    
     $('.scrollBtn').click(function () {
-        $('html, body').animate({scrollTop: $('#footer').offset().top}, 1500, 'easeInOutExpo');
+        $('html, body').animate({scrollTop: $('#contact').offset().top}, 1500, 'easeInOutExpo');
         return false;
     });
 
